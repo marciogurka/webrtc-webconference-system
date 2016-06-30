@@ -1,0 +1,13 @@
+{
+  "name": "WebRTC-Webconference-System",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Márcio José Gurka Júnior",
+    "email": "marciogurkajr@gmail.com"
+  },
+  "dependencies":{
+    "bootstrap-material-design": "*",
+    "font-awesome": "*"
+  }
+}

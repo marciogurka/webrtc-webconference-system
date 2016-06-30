@@ -1,0 +1,271 @@
+
+
+@font-face {
+    font-family: 'Myriad';
+    src: url('//cdn.webrtc-experiment.com/fonts/MyriadPro-Light.otf') format("opentype");
+    font-weight: 400;
+}
+
+body, body * {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    -webkit-user-drag: none;
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+}
+
+html {
+    background: rgb(247, 253, 244);
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70px !important;
+}
+
+.new-message {
+    min-height: 7em;
+    border-top: 1px solid #ccc !important;
+}
+
+.new-message:first-child {
+    border-top: 0;
+}
+
+.user-info {
+    width: 10em;
+    min-height: 12em !important;
+    float: left;
+    text-align: center;
+}
+
+.user-info video {
+    width: 100%;
+    height: 134px;
+}
+
+.user-info audio {
+    width: 100%;
+}
+
+.user-activity {
+    padding: .4em .8em;
+}
+
+.user-info-img{
+    padding: 2em;
+}
+
+.header {
+}
+
+.message {
+    padding: .6em .8em;
+    word-wrap: break-word;
+}
+
+.message img, .message iframe {
+    width: 64%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.main{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 315px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.main-input-box {
+    margin-bottom: 10px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.main-input-box textarea {
+    border: 0;
+    width: 100%;
+    resize: none;
+    padding: .4em .8em;
+    font-size: inherit;
+    font-family: inherit;
+    padding-right: 177px;
+    background: transparent;
+}
+
+button, .users-list
+{
+	padding: 5px 10px;
+	cursor: pointer;
+	display:inline-block;
+	color: #FDFDFD;
+	font-size: 20px;
+	color: black;
+	border: 1px solid rgba(231, 72, 50, 0.59);
+	border-radius: 2px;
+	background-color: rgba(204, 60, 25, 0.63);
+}
+button:hover, .users-list:hover
+{
+	 background-color: rgba(204, 60, 25, 0.83);
+}
+button:active, .users-list:active
+{
+     background-color: rgba(204, 60, 25, 0.9);
+}
+
+button[disabled], input[type=button][disabled] {
+    background-color: transparent;
+    border: 1px solid rgb(187, 181, 181);
+    color: gray;
+    text-shadow: none;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a {
+    color: #2844FA;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #1B29A4;
+}
+
+a:active {
+    color: #000;
+}
+
+input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 15px;
+    height: 32px;
+    margin-top: .5em;
+    padding: 0 8px;
+    -moz-user-select: initial;
+    -o-user-select: initial;
+    -webkit-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.video-item-list{
+    padding: 85px !important;
+}
+
+.settings-panel {
+    margin: 0 0 13px 0;
+    border: 1px solid black;
+    overflow: hidden;
+    overflow-x: auto;
+    height: 180px;
+    border-radius: 5px;
+    display: none;
+}
+
+.users-container{
+    display: none
+}
+
+.users-container video {
+    height: 45%;
+    padding: 5px;
+    width: 360px;
+}
+
+.self-url {
+    position: absolute;
+    top: 5px;
+    left: 251px;
+    height: 25px;
+    overflow: hidden;
+}
+
+
+#save-settings {
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url('images/accepted.png');
+    padding-right: 53px;
+    border-color: rgb(133, 21, 21);
+}
+
+.settings-panel {
+    height: auto;
+    overflow: hidden;
+    padding: .4em .8em;
+}
+
+strong {
+    font-family: inherit;
+    font-weight: normal;
+}
+
+tr, td, th {
+    vertical-align: top;
+    padding: .7em 1.4em;
+    border-top: 1px dotted #BBA9A9;
+    border-right: 1px dotted #BBA9A9;
+}
+
+table {
+    width: 100%;
+}
+
+select {
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    padding: .4em .4em;
+    margin-top: 5px;
+}
+
+label.adjust-width {
+    display: inline-block;
+    width: 30%;
+}
+
+small {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.smiley {
+    width: 20px!important;
+    height: 20px;
+    border: 0!important;
+    vertical-align: middle;
+}
+#who-is-typing
+{
+	text-align: left;
+	position: absolute;
+	margin: 0 18px;
+	color: red;
+}
+
+.msg-container{
+    background: white;
+}
+.padding-top{
+        padding-top: 20px;
+}
